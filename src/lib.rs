@@ -1,4 +1,5 @@
 mod block;
+mod transaction;
 
 type Hash = Vec<u8>;
 type Address = String;
