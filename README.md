@@ -19,6 +19,9 @@ rustcoin = { git = "https://github.com/rustcoin/rustcoin" }
 - [solana](https://github.com/solana-labs/solana)
 - [zcash](https://github.com/zcash/zcash)
 
+## Code Style:
+- rustcoin codestyle will be familar with solana and zcash 
+
 ## Author:
 - [krishpranav](https://github.com/krishpranav)
 
