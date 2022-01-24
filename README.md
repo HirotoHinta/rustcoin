@@ -14,6 +14,11 @@ rustcoin = { git = "https://github.com/rustcoin/rustcoin" }
 /* soon */
 ```
 
+## Inspiration:
+- [rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin)
+- [solana](https://github.com/solana-labs/solana)
+- [zcash](https://github.com/zcash/zcash)
+
 ## Author:
 - [krishpranav](https://github.com/krishpranav)
 
