@@ -1,0 +1,10 @@
+# build output folder
+/target
+
+# system cache
+.DS_Store
+
+# ide caches
+.idea/
+.vscode/
+
