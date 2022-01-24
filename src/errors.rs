@@ -1,8 +1,6 @@
 use std::fmt;
 use bitcoin::OutPoint;
-
-use crate::bitcoin::Network;
-use crate::{descriptor, wallet, wallet::address_validator};
+use bitcoin::Network;
 
 #[derive(Debug)]
 pub enum Error {
@@ -11,4 +9,23 @@ pub enum Error {
     scriptDoesntHaveAddress,
     noUtxosSelected,
     outputBelowDustLimit(usize),
+
+    bnbTotalTriesExceeded,
+    bnbNoExactMatch,
+    unKnownUtxo,
+    transactionNotFound,
+    transactionConfrimed,
+
+    insufficientFunds {
+        needed: u64,
+        available: u64,
+    },
+
+    freeRateTooLow {
+        required: u64,
+    },
+
+    feeTooLow {
+        required: u64,
+    }
 }
